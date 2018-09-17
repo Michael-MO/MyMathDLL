@@ -46,7 +46,12 @@ namespace myMathDLL
         // Divide x by y
         public static double Divide(int x, int y)
         {
-            return x / y;
+            if (y != 0)
+            {
+                return x / y;
+            }
+
+            return 0;
         }
 
         // Method power of
