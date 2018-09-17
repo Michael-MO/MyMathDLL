@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myMathDLL", "myMathDLL\myMathDLL.csproj", "{288840C9-1504-4F52-81B0-B46EF712C7F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{ACAC5030-E710-4AAF-AA7C-6B6815E95871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288840C9-1504-4F52-81B0-B46EF712C7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288840C9-1504-4F52-81B0-B46EF712C7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288840C9-1504-4F52-81B0-B46EF712C7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288840C9-1504-4F52-81B0-B46EF712C7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAC5030-E710-4AAF-AA7C-6B6815E95871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAC5030-E710-4AAF-AA7C-6B6815E95871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAC5030-E710-4AAF-AA7C-6B6815E95871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAC5030-E710-4AAF-AA7C-6B6815E95871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CDA143F-DABD-4AB2-987F-163E5AEDD64B}
+	EndGlobalSection
+EndGlobal
