@@ -48,5 +48,12 @@ namespace myMathDLL
         {
             return x / y;
         }
+
+        // Method power of
+        // x to the power of y
+        public static int ToThePowerOf(int x, int y)
+        {
+            return x ^ y;
+        }
     }
 }
