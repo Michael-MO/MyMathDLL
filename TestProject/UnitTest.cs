@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using myMathDLL;
 
@@ -20,6 +21,20 @@ namespace TestProject
         public void AddTest2()
         {
             Assert.AreEqual(MyMath.Add(-5, -5), -10);
+        }
+
+        [TestMethod]
+        public void AddMultiTest1()
+        {
+            List<int> testInts = new List<int>{1,2,3,4};
+            Assert.AreEqual(MyMath.AddMulti(testInts), 10);
+        }
+
+        [TestMethod]
+        public void AddMultiTest2()
+        {
+            List<int> testInts = new List<int> { -1, -2, -3, -4 };
+            Assert.AreEqual(MyMath.AddMulti(testInts), -10);
         }
 
         [TestMethod]

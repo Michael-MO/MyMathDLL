@@ -15,6 +15,19 @@ namespace myMathDLL
             return x + (y);
         }
 
+        // Method multi Add
+        // Sum of list of numbers
+        public static int AddMulti(List<int> numbers)
+        {
+            int count = 0;
+            foreach (int number in numbers)
+            {
+                count += number;
+            }
+            return count;
+        }
+
+
         // Method "Subtract"
         // Subtract y from x
         public static int Subtract(int x, int y)
