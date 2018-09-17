@@ -8,15 +8,24 @@ namespace myMathDLL
 {
     public static class MyMath
     {
-        // Method "Add"
-        // Sum of x and y
+        /// <summary>
+        /// Method "Add"
+        /// Sum of x and y
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public static int Add(int x, int y)
         {
             return x + (y);
         }
 
-        // Method multi Add
-        // Sum of list of numbers
+        /// <summary>
+        /// Method multi Add
+        /// Sum of list x of numbers
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <returns></returns>
         public static int AddMulti(List<int> numbers)
         {
             int count = 0;
@@ -27,23 +36,38 @@ namespace myMathDLL
             return count;
         }
 
-
-        // Method "Subtract"
-        // Subtract y from x
+        /// <summary>
+        /// Method "Subtract"
+        /// Subtract y from x
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public static int Subtract(int x, int y)
         {
             return x - (y);
         }
 
-        // Method "Multiply"
-        // Multiply x by y
+
+        /// <summary>
+        /// Method "Multiply"
+        /// Multiply x by y
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public static int Multiply(int x, int y)
         {
             return x * y;
         }
 
-        // Method "Divide"
-        // Divide x by y
+        /// <summary>
+        /// Method "Divide"
+        /// Divide x by y
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public static double Divide(int x, int y)
         {
             if (y != 0)
@@ -54,8 +78,13 @@ namespace myMathDLL
             return 0;
         }
 
-        // Method power of
-        // x to the power of y
+        /// <summary>
+        /// Method to the power of
+        /// x to the power of y
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public static int ToThePowerOf(int x, int y)
         {
             return x ^ y;
