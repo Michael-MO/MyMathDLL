@@ -54,5 +54,16 @@ namespace TestProject
         {
             Assert.IsTrue(MyMath.Divide(10, 5).Equals(2));
         }
+
+        [TestMethod]
+        public void DivideTestWithZero()
+        {
+            Assert.AreEqual(MyMath.Divide(10, 0), 0);
+        }
+
+        public void ToThePowerOfTest()
+        {
+            Assert.AreEqual(MyMath.ToThePowerOf(2,5), 32);
+        }
     }
 }

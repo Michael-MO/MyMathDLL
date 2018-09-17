@@ -51,7 +51,7 @@ namespace myMathDLL
                 return x / y;
             }
 
-            return 0;
+            throw new ArgumentException("NEEEJ!? :-(");
         }
 
         // Method power of
